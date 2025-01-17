@@ -26,6 +26,7 @@ In your scenario, you will be working with data from the following sources:
 5. Product information maintained in a spreadsheet exported from your supplier's database
 
 Objectives
+
 After completing this lab, you will be able to:
 
 1. Identify entities
