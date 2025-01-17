@@ -28,12 +28,12 @@ In your scenario, you will be working with data from the following sources:
 Objectives
 After completing this lab, you will be able to:
 
-> Identify entities
-> Identity attributes
-> Create an entity relationship diagram (ERD) using the pgAdmin ERD tool
-> Normalize tables
-> Define keys and relationships
-> Create database objects by generating and running the SQL script from the ERD tool
-> Create a view and export the data
-> Create a materialized view and export the data
-> Import data into a MySQL database using phpMyAdmin GUI tool
+1. Identify entities
+2. Identity attributes
+3. Create an entity relationship diagram (ERD) using the pgAdmin ERD tool
+4. Normalize tables
+5. Define keys and relationships
+6. Create database objects by generating and running the SQL script from the ERD tool
+7. Create a view and export the data
+8. Create a materialized view and export the data
+9. Import data into a MySQL database using phpMyAdmin GUI tool
