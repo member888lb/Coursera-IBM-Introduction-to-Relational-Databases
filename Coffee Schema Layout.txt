@@ -1,0 +1,63 @@
+Table order based on CoffeeData dump
+1. Customer
+2. Product Type
+3. Product
+4. Sales Outlet
+5. Staff
+6. Sales Transaction
+7. Sales Detail
+
+Table Header Order, Primary Key (P), Relationship (->) and Other Details based on CoffeeData dump
+
+CUSTOMER
+customer_id  (int) (P) -> sales transaction
+customer_name (char)  45
+customer_email  (char)  50
+customer_since  (int)
+customer_card_number  (int)
+birthdate  (date)
+gender  (char)  5
+
+PRODUCT_TYPE
+product_id  (integer) (P)  -> product
+product_catetory  (character varying) 50
+product_type (char) 50
+
+PRODUCT
+product_id  (int) (P) -> sale detail
+product_name   (char)  50
+description  (char) 50
+price   (int)   
+transaction_id  (int) 
+
+SALES_OUTLET
+sales_outlet_id (int) (P) -> sales transaction
+sales_outlet_type  (char)  30
+address  (char)   50
+city   (char)  50
+telephone   (int)
+postal_code (int)
+manager  (char)  35
+
+STAFF
+staff_id  (int) (P)  -> sales transaction
+first_name  (char)  45
+last_name  (char)  45
+position   (char) 35
+start_date  (date)
+location   (int)  
+
+SALES_TRANSACTION
+transaction_id (int) (P)  -> sales detail
+transaction_date (date)
+transaction_time (time)
+sales_outlet_id (int)
+staff_id (int)
+customer_id (Int)
+
+SALES_DETAIL
+sales_detail_id (int) (P)
+transaction_id (int) -> product
+product_id  (int)
+quantity   (int)
+price  (int)
