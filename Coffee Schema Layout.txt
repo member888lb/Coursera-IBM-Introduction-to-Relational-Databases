@@ -7,7 +7,8 @@ Table order based on CoffeeData dump
 6. Sales Transaction
 7. Sales Detail
 
-Table Header Order, Primary Key (P), Relationship (->) and Other Details based on CoffeeData dump
+Table Header Order, Primary Key (P), Relationship (->) and Other Details based on 
+CoffeeData dump
 
 CUSTOMER
 customer_id  (int) (P) -> sales transaction
